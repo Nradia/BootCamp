@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="browser" value="firefox"></parameter>
+<parameter name="website" value="https://homedepot.com"></parameter>
+<parameter name="email" value="nora@gmail.com"></parameter>
+<parameter name="pw" value="abns2154"></parameter>
+<parameter name="phone" value="1234567897"></parameter>
+<parameter name="zipode" value="12345"></parameter>
+  <test thread-count="5" name="Test">
+  <classes>
+      <class name="CompanyName.AaaBOOTCamp.HomedpotCreate"/>
+    </classes>
+  
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
